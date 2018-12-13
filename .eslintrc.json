@@ -1,0 +1,24 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "google",
+        "plugin:node/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 8
+    },
+    "env": {
+        "amd": true,
+        "node": true
+    },
+    "rules": {
+        "no-console": 0,
+        "comma-dangle": ["error", "never"],
+        "object-curly-spacing": 0,
+        "max-len":"off",
+        "space-before-function-paren": "off",
+        "no-process-exit": "off",
+        "require-jsdoc":"off",
+        "new-cap":"off"
+    }
+}
